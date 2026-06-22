@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Visual Pinball is a freeware and source available video game engine for pinball tables and similar games such as pachinko machines. It includes a table editor as well as the simulator itself, and runs on Microsoft Windows. It can be used with Visual PinMAME, an emulator for ROM images from real pinball machines.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Visual Pinball es un motor de videojuegos gratuito y de código fuente disponible para mesas de pinball y juegos similares, como las máquinas pachinko. Incluye un editor de mesas, así como el propio simulador, y se ejecuta en Microsoft Windows. Puede utilizarse con Visual PinMAME, un emulador de imágenes ROM de máquinas de pinball reales.</text>
+  </text>
+</view>
+</theme>

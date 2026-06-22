@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Sony PlayStation, or PS for short, is a fifth generation (1993–2005) home video game console developed and distributed by Sony Interactive Entertainment. It was released on December 3, 1994 in Japan at a retail price of ¥37,000. The console was later released in North America (1995), Europe (1995), Australia (1995), and Korea (1996). The PlayStation was known for standardizing disc based games over cartridges, as well as controllers with two analog sticks and vibration feedback. The console was discontinued on March 23, 2006.
+
+PlayStation (Japanese: プレイステーション, Hepburn: Pureisutēshon, officially abbreviated as PS) is a Japanese video game brand that consists of five home video game consoles, as well as a media center, an online service, a line of controllers, two handhelds and a phone, as well as multiple magazines. The brand is produced by Sony Interactive Entertainment, a division of Sony, with the first console releasing as the PlayStation in Japan released in December 1994, and worldwide the following year.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Sony PlayStation, o PS para abreviar, es una videoconsola doméstica de quinta generación (1993-2005) desarrollada y distribuida por Sony Interactive Entertainment. Salió a la venta el 3 de diciembre de 1994 en Japón a un precio de venta al público de 37.000 yenes. La consola se lanzó posteriormente en Norteamérica (1995), Europa (1995), Australia (1995) y Corea (1996). La PlayStation fue conocida por estandarizar los juegos basados en discos en lugar de cartuchos, así como por sus mandos con dos sticks analógicos y retroalimentación por vibración. La consola dejó de fabricarse el 23 de marzo de 2006.
+
+PlayStation (japonés: プレイステーション, Hepburn: Pureisutēshon, abreviado oficialmente como PS) es una marca japonesa de videojuegos que consta de cinco videoconsolas domésticas, así como un centro multimedia, un servicio en línea, una línea de mandos, dos dispositivos portátiles y un teléfono, además de múltiples revistas. La marca está producida por Sony Interactive Entertainment, una división de Sony, y la primera consola se lanzó como PlayStation en Japón en diciembre de 1994, y en todo el mundo al año siguiente.</text>
+  </text>
+</view>
+</theme>

@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The PalmPilot Personal and PalmPilot Professional are the second generation of Palm PDA devices produced by Palm Inc (then a subsidiary of U.S. Robotics, later 3Com). These devices were launched on March 10, 1997</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>PalmPilot Personal y PalmPilot Professional son la segunda generación de dispositivos PDA Palm producidos por Palm Inc (entonces filial de U.S. Robotics, más tarde 3Com). Estos dispositivos se lanzaron el 10 de marzo de 1997</text>
+  </text>
+</view>
+</theme>

@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Amstrad GX4000, commonly known as the GX4000, is a third generation (1983-2003) video game console developed and distributed by Amstrad. It was released in September of 1990 in Europe at a retail price of £99.99. The console was not released outside Europe. The GX4000 was Amstrad's short-lived attempt to enter the games console market, being primarily a home computer manufacturer. The console was discontinued in late 1991.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Amstrad GX4000, comúnmente conocida como GX4000, es una videoconsola de tercera generación (1983-2003) desarrollada y distribuida por Amstrad. Fue lanzada en septiembre de 1990 en Europa a un precio de venta al público de 99,99 libras esterlinas. La consola no salió a la venta fuera de Europa. La GX4000 fue el efímero intento de Amstrad de introducirse en el mercado de las videoconsolas, siendo principalmente un fabricante de ordenadores domésticos. La consola dejó de fabricarse a finales de 1991.</text>
+  </text>
+</view>
+</theme>

@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Vectrex is a vector display-based home video game console–the only one ever designed and released for the home market, developed by Smith Engineering. It was first released for the North America market in November 1982 and then Europe and Japan in 1983. Originally manufactured by General Consumer Electronics, it was later licensed to Milton Bradley after they acquired the company. Bandai released the system in Japan.
+
+The Vectrex, in contrast to other video-game systems available at the time, featured an integrated monochrome CRT monitor and did not need to be hooked up to a television set as it provided its own built-in display. A detachable wired control pad was mounted at, and could be folded into, the lower base of the console. Games included translucent color sheet overlays that could be placed over the monochrome screen. A number of peripherals were produced, such as a pair of 3D goggles known as the "3D Imager" and a "light-pen" that allowed the player to draw directly on the screen. A built-in game, Mine Storm, was playable without inserting a cartridge.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Vectrex es una videoconsola doméstica con pantalla vectorial, la única diseñada y lanzada al mercado doméstico, desarrollada por Smith Engineering. Salió a la venta en Norteamérica en noviembre de 1982 y en Europa y Japón en 1983. Originalmente fabricada por General Consumer Electronics, fue posteriormente licenciada a Milton Bradley tras la adquisición de la empresa. Bandai lanzó el sistema en Japón.
+
+El Vectrex, a diferencia de otros sistemas de videojuegos disponibles en la época, contaba con un monitor CRT monocromo integrado y no necesitaba conectarse a un televisor, ya que disponía de su propia pantalla integrada. En la base inferior de la consola había un mando de control con cable desmontable que podía plegarse. Los juegos incluían láminas translúcidas en color que podían colocarse sobre la pantalla monocroma. Se fabricaron varios periféricos, como unas gafas 3D conocidas como "3D Imager" y un "lápiz óptico" que permitía al jugador dibujar directamente en la pantalla. Un juego incorporado, Mine Storm, permitía jugar sin necesidad de insertar un cartucho.</text>
+  </text>
+</view>
+</theme>

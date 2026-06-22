@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>eXoWin3x is part of the eXoDOS project, a curated collection that preserves and preconfigures games originally released for Microsoft Windows 3.x. Each title is set up to run out of the box through DOSBox with the appropriate Windows environment, making early Windows games playable on modern machines without manual configuration.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>eXoWin3x forma parte del proyecto eXoDOS, una colección curada que preserva y preconfigura juegos publicados originalmente para Microsoft Windows 3.x. Cada título está listo para ejecutarse mediante DOSBox con el entorno de Windows adecuado, permitiendo jugar a los primeros juegos de Windows en equipos modernos sin configuración manual.</text>
+  </text>
+</view>
+</theme>

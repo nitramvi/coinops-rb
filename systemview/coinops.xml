@@ -1,0 +1,96 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+<!-- CoinOPS-style system view (mirrors coinops-es-de): bright fanart + logo upper-left + long description + controller outline + game count.
+     The per-system sysdesc.xml is included from theme.xml (top level) so $system resolves. -->
+<view name="system">
+
+	<!-- Hide Artflix's per-system info texts (they have no place here and pile up at the top) -->
+	<text name="info1, info2, info3, info4, info5, info6, playbutton" extra="true">
+		<pos>9 9</pos>
+		<size>0.01 0.01</size>
+		<opacity>0</opacity>
+	</text>
+
+	<!-- System fanart (ES-DE backgroundpromo, 16:10): pos -.03 0, size 0 1 = keep aspect, no stretch -->
+	<image name="art" extra="true">
+		<origin>0 0</origin>
+		<pos>-0.03 0</pos>
+		<size>0 1</size>
+		<path>./../assets/brickwall_bg.png</path>
+		<path>./../assets/arts/540/$system.jpg</path>
+		<path>./../assets/arts/hd/$system.jpg</path>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>9</zIndex>
+	</image>
+
+	<!-- System background overlay: EXACTLY what coinops-es-de default.xml uses (paneloverlay.png
+	     at full opacity, no tint). Gives ES-DE's muted look: darker corners, cool cast, dimmer
+	     edges while keeping the center readable. zIndex 10, over the fanart (z9). -->
+	<image name="vignette" extra="true">
+		<origin>0 0</origin>
+		<pos>0 0</pos>
+		<size>1 1</size>
+		<path>./../assets/paneloverlay.png</path>
+		<zIndex>10</zIndex>
+	</image>
+
+	<!-- Controller outline, bottom-right, faint (like ES-DE) -->
+	<image name="controller" extra="true">
+		<path>./../assets/controllers/$system.svg</path>
+		<pos>0.97 0.875</pos>
+		<origin>1 1</origin>
+		<maxSize>0.27 0.18</maxSize>
+		<color>FFFFFF</color>
+		<opacity>0.22</opacity>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>20</zIndex>
+	</image>
+
+	<!-- System logo: single, upper-left (ES-DE places it ~x0.2 y0.59). logoPos -1 shifts it one logo-width left. -->
+	<carousel name="systemcarousel">
+		<type>horizontal</type>
+		<color>00000000</color>
+		<colorEnd>00000000</colorEnd>
+		<pos>0 0.42</pos>
+		<size>0.5 0.34</size>
+		<origin>0 0</origin>
+		<maxLogoCount>1</maxLogoCount>
+		<logoSize>0.35 0.35</logoSize>
+		<logoScale>1.0</logoScale>
+		<zIndex>50</zIndex>
+	</carousel>
+	<image name="logo">
+		<path>./../assets/logos/$system.png</path>
+		<linearSmooth>true</linearSmooth>
+	</image>
+
+	<!-- NOTE: the long description (sysdescription) comes from ./$system/sysdesc.xml,
+	     included from theme.xml and scoped to this view via ifSubset. -->
+
+	<!-- Game count, bottom-right -->
+	<text name="systemInfo">
+		<pos>0.975 0.95</pos>
+		<origin>1 1</origin>
+		<alignment>right</alignment>
+		<fontPath>./../_inc/fonts/Circular Std Book.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<color>EDEDED</color>
+		<glowColor>000000A0</glowColor>
+		<glowSize>2</glowSize>
+		<zIndex>50</zIndex>
+	</text>
+
+	<!-- Help bar: matches the gamelist + coinops-es-de (centered, gray BBBBBB, Exo2-RegularCondensed) -->
+	<helpsystem name="help">
+		<fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+		<fontSize>0.025</fontSize>
+		<pos>0.5 0.005</pos>
+		<origin>0.5 0</origin>
+		<textColor>BBBBBB</textColor>
+		<iconColor>BBBBBB</iconColor>
+		<iconTextSpacing>0.003</iconTextSpacing>
+	</helpsystem>
+
+</view>
+</theme>

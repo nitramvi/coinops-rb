@@ -1,0 +1,15 @@
+# Respaldos locales (no subir a git)
+theme.xml.bak-before-cleanup
+*.bak
+*.bak-*
+*.orig
+assets/coinops_artflix_orig/
+assets/coinops/*.artflix_bak
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Placeholder de capturas (borrar al agregar las imagenes)
+preview/PONER-CAPTURAS-ACA.txt

@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>An arcade game or coin-op is a coin-operated entertainment machine typically installed in public businesses such as restaurants, bars and amusement arcades. Most arcade games are video games, pinball machines, electro-mechanical games, redemption games or merchandisers. While exact dates are debated, the golden age of arcade video games is usually defined as a period beginning sometime in the late 1970s and ending sometime in the mid-1980s. Excluding a brief resurgence in the early 1990s, the arcade industry subsequently declined in the Western hemisphere as competing home-based video game consoles such as Playstation and Xbox increased in their graphics and game-play capability and decreased in cost.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Un juego arcade o coin-op es una máquina de entretenimiento que funciona con monedas y que suele instalarse en negocios públicos como restaurantes, bares y salones recreativos. La mayoría de los juegos arcade son videojuegos, máquinas de pinball, juegos electromecánicos, juegos de canje o merchandisers. Aunque las fechas exactas son objeto de debate, la edad de oro de los videojuegos arcade suele definirse como un periodo que comienza a finales de la década de 1970 y termina a mediados de la década de 1980. Salvo un breve resurgimiento a principios de la década de 1990, la industria de los salones recreativos decayó posteriormente en el hemisferio occidental a medida que las consolas de videojuegos domésticas de la competencia, como la Playstation y la Xbox, aumentaban su capacidad gráfica y de juego y disminuían su coste.</text>
+  </text>
+</view>
+</theme>

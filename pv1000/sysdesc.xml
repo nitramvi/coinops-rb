@@ -1,0 +1,41 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Casio PV-1000 (ぴーぶいせん, Pi Bui-Sen) is a third-generation home video game console manufactured by Casio and released in Japan in 1983. It was discontinued less than a year after release.
+
+The PV-1000 was released in October 1983. It was only released in Japan where it sold for 14,800 yen. Casio failed to achieve a significant market share. According to retrogames.co.uk the console was pulled after several weeks; due to low sales.
+
+The PV-1000 is powered by a Zilog Z80 CPU, with 2 KB RAM, with 1 KB allocated as VRAM. It also has an additional 1 KB devoted to a character generator. Graphics were provided by a Texas Instruments TMS9918, generating a 256x192 pixel resolution with 8 colours. The console contains a NEC D65010G031 chip used to output video and sound. It had three square wave voices with 6 bits to control the period.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Casio PV-1000 (ぴーぶいせん, Pi Bui-Sen) es una videoconsola doméstica de tercera generación fabricada por Casio y lanzada en Japón en 1983. Se dejó de fabricar menos de un año después de su lanzamiento.
+
+La PV-1000 salió a la venta en octubre de 1983. Sólo salió a la venta en Japón, donde se vendió por 14.800 yenes. Casio no consiguió una cuota de mercado significativa. Según retrogames.co.uk, la consola se retiró después de varias semanas debido a las bajas ventas.
+
+La PV-1000 funciona con una CPU Zilog Z80, 2 KB de RAM y 1 KB de VRAM. También tiene 1 KB adicional dedicado a un generador de caracteres. Los gráficos fueron proporcionados por un Texas Instruments TMS9918, generando una resolución de 256x192 píxeles con 8 colores. La consola contiene un chip NEC D65010G031 utilizado para la salida de vídeo y sonido. Tenía tres voces de onda cuadrada con 6 bits para controlar el periodo.</text>
+  </text>
+</view>
+</theme>

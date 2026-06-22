@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Blake Stone is a series of first-person shooters developed by JAM Productions and published by Apogee Software, comprising Aliens of Gold (1993) and Planet Strike (1994). Built on an enhanced Wolfenstein 3D engine, the games added features such as informants, interactive maps and food and health stations. BStone is a modern source port that lets these classic shooters run natively on current systems.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Blake Stone es una serie de shooters en primera persona desarrollada por JAM Productions y publicada por Apogee Software, formada por Aliens of Gold (1993) y Planet Strike (1994). Basados en una versión mejorada del motor de Wolfenstein 3D, añadieron elementos como informantes, mapas interactivos y estaciones de comida y salud. BStone es un port moderno que permite ejecutar estos clásicos de forma nativa en sistemas actuales.</text>
+  </text>
+</view>
+</theme>

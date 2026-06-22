@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The WonderSwan Color is a handheld game console released in Japan by Bandai in 2000 as the colour successor to the original WonderSwan. Developed with Koto Laboratory, it added a colour screen and more memory while remaining backward compatible with WonderSwan games, and was one of the few rivals to challenge the Game Boy line in Japan.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>WonderSwan Color es una videoconsola portátil lanzada en Japón por Bandai en 2000 como sucesora en color de la WonderSwan original. Desarrollada junto a Koto Laboratory, añadió una pantalla en color y más memoria manteniendo la retrocompatibilidad con los juegos de WonderSwan, y fue uno de los pocos rivales que plantó cara a la línea Game Boy en Japón.</text>
+  </text>
+</view>
+</theme>

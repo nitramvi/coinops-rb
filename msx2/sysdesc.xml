@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>MSX is a standardized home computer architecture, announced by Microsoft and ASCII Corporation on June 16, 1983. It was initially conceived by Microsoft as a product for the Eastern sector, and jointly marketed by Kazuhiko Nishi, then vice-president at Microsoft and director at ASCII Corporation. Microsoft and Nishi conceived the project as an attempt to create unified standards among various home computing system manufacturers of the period, in the same fashion as the VHS standard for home video tape machines.
+
+MSX systems were popular in Japan and several other countries. Sony was the primary manufacturer of MSX systems at the time of release, and throughout most of the products lifespan, producing more units than any other manufacturer. Eventually 5 million MSX-based units were sold in Japan alone. Despite Microsoft's involvement, few MSX-based machines were released in the United States.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>MSX es una arquitectura estandarizada de ordenadores domésticos, anunciada por Microsoft y ASCII Corporation el 16 de junio de 1983. Fue concebido inicialmente por Microsoft como un producto para el sector oriental, y comercializado conjuntamente por Kazuhiko Nishi, entonces vicepresidente de Microsoft y director de ASCII Corporation. Microsoft y Nishi concibieron el proyecto como un intento de crear estándares unificados entre los distintos fabricantes de sistemas informáticos domésticos de la época, al igual que el estándar VHS para las máquinas de cintas de vídeo domésticas.
+
+Los sistemas MSX fueron populares en Japón y otros países. Sony fue el principal fabricante de sistemas MSX en el momento de su lanzamiento y durante la mayor parte de la vida útil del producto, produciendo más unidades que ningún otro fabricante. Sólo en Japón se llegaron a vender 5 millones de unidades basadas en MSX. A pesar de la implicación de Microsoft, en Estados Unidos se lanzaron pocas máquinas basadas en MSX.</text>
+  </text>
+</view>
+</theme>

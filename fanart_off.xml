@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Override loaded by the "fanartbg = Brick wall" theme option (see theme.xml).
+     Replaces the fanart background with a full-screen brick wall:
+     - brick image at zIndex 3 covers the system/game fanart layers (art z2, md_fanart z3),
+     - the per-game fanart is hidden, but the purple fanarthue (z4) is KEPT on top of the brick
+       so it reads moody/tinted like ES-DE (which always draws fanarthue over its brick fallback),
+       not flat gray.
+     The TV-screen media (z5+) and the cabinet (z9) stay on top, so only the background changes. -->
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="gamecarousel">
+
+    <!-- Full-screen brick wall (atmospheric variant: spotlight + vignette + cool tint) -->
+    <image name="brickbg" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/brickwall_bg.png</path>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>3</zIndex>
+    </image>
+
+    <!-- Hide only the per-game fanart; the fanarthue (z4) stays visible over the brick (ES-DE look) -->
+    <image name="md_fanart">
+      <visible>false</visible>
+    </image>
+
+  </view>
+</theme>

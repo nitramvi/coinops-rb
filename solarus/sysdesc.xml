@@ -1,0 +1,49 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Solarus was specifically designed with cult 2D action-RPG classics in mind, such as The Legend of Zelda: A Link to the Past and Secret of Mana on the Super Nintendo, or Soleil on the Sega Megadrive/Genesis.
+
+The engine is programmed in C++, with the SDL library and an OpenGL backend. Games made with Solarus are called quests, and are programmed in Lua.
+
+The engine does all the heavy computations (for example, collision checks) and the low-level operations like drawing the screen, animating sprites and playing sounds.
+
+As a quest maker, you are not much interested in implementing these algorithms. On the contrary, you want to define the game logic. Your Lua scripts describe the behavior of enemies, what happens when pressing a switch on a specific map. They will also implement such things as the title screen and the head-up display.
+
+Both parts (the C++ engine and the Lua scripts of your quest) communicate through the Solarus Lua API. The communication works in both ways: you can call functions of the engine (example: you want to move a non-playing character) and the engine calls your own functions (example: be informed that an enemy was just killed). But before using this Solarus API, you have to learn the basics of Lua (easy and minimal, yet powerful language).</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Solarus se diseñó específicamente pensando en los clásicos RPG de acción en 2D de culto, como The Legend of Zelda: A Link to the Past y Secret of Mana para Super Nintendo, o Soleil para Sega Megadrive/Genesis.
+
+El motor está programado en C++, con la biblioteca SDL y un backend OpenGL. Los juegos hechos con Solarus se llaman quests, y están programados en Lua.
+
+El motor realiza todos los cálculos pesados (por ejemplo, las comprobaciones de colisión) y las operaciones de bajo nivel, como dibujar la pantalla, animar los sprites y reproducir los sonidos.
+
+Como creador de quest, no estás muy interesado en implementar estos algoritmos. Al contrario, quieres definir la lógica del juego. Tus scripts Lua describen el comportamiento de los enemigos, lo que ocurre al pulsar un interruptor en un mapa concreto. También implementarán cosas como la pantalla de título y el head-up display.
+
+Ambas partes (el motor C++ y los scripts Lua de tu búsqueda) se comunican a través de la API Solarus Lua. La comunicación funciona en ambos sentidos: puedes llamar a funciones del motor (ejemplo: quieres mover a un personaje no jugador) y el motor llama a tus propias funciones (ejemplo: ser informado de que un enemigo acaba de ser eliminado). Pero antes de usar esta API de Solarus, tienes que aprender lo básico de Lua (lenguaje fácil y mínimo, pero potente).</text>
+  </text>
+</view>
+</theme>

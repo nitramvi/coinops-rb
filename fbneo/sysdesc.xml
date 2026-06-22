@@ -1,0 +1,41 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>FinalBurn Neo is a Multiple Arcade Emulator most popular for emulating Neo-Geo, Capcom, Konami, and Cave games. It is developed by the FinalBurn team and originated from FinalBurn by Dave and old MAME versions.
+
+FinalBurn Neo is an active fork of the FinalBurn Alpha emulator, created by many of the former FBA developers.
+
+The reason for the separation of the older branch, FB Alpha, and new spin-off branch, FB Neo, was due to an apparent disagreement between one Barry Harris and the rest of the main FBA team members over a licensing issue.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>FinalBurn Neo es un Emulador Arcade Múltiple más popular para emular juegos de Neo-Geo, Capcom, Konami y Cave. Está desarrollado por el equipo de FinalBurn y se originó a partir de FinalBurn de Dave y antiguas versiones de MAME.
+
+FinalBurn Neo es un fork activo del emulador FinalBurn Alpha, creado por muchos de los antiguos desarrolladores de FBA.
+
+La razón de la separación de la antigua rama, FB Alpha, y la nueva rama derivada, FB Neo, se debió a un aparente desacuerdo entre un tal Barry Harris y el resto de los principales miembros del equipo FBA sobre un asunto de licencias.</text>
+  </text>
+</view>
+</theme>

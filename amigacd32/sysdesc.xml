@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Amiga CD32, styled "CD32" and code-named "Spellbound", is the first 32-bit home video game console released in western Europe, Australia, Canada and Brazil. It was first announced at the Science Museum in London on July 16, 1993, and was released in September of the same year. The CD32 uses CD-ROM media, and was developed by Commodore, creator of the Commodore Amiga computer. It was based on Commodore's Advanced Graphics Architecture chipset, and is of similar specification to the Amiga 1200 computer. Using third party devices, it is possible to upgrade the CD32 with keyboard, floppy drive, hard drive, RAM and mouse, turning it into the equivalent of an Amiga 1200 personal computer. A hardware MPEG decompression module for playing Video CD was also released. In the Christmas period following its launch, the CD32 accounted for 38% of all CD-ROM drive sales in the UK, exceeding sales of the Mega-CD; however, it was soon overshadowed by CD-ROM based games consoles from other companies, and was discontinued as Commodore went into bankruptcy.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Amiga CD32, conocida como "CD32" y con el nombre en clave "Spellbound", es la primera videoconsola doméstica de 32 bits comercializada en Europa occidental, Australia, Canadá y Brasil. Se anunció por primera vez en el Museo de la Ciencia de Londres el 16 de julio de 1993 y salió a la venta en septiembre del mismo año. La CD32 utiliza CD-ROM y fue desarrollada por Commodore, creadora del ordenador Commodore Amiga. Se basa en el chipset de Arquitectura Gráfica Avanzada de Commodore y tiene especificaciones similares al ordenador Amiga 1200. Utilizando dispositivos de terceros, es posible actualizar el CD32 con teclado, disquetera, disco duro, RAM y ratón, convirtiéndolo en el equivalente de un ordenador personal Amiga 1200. También se lanzó un módulo de descompresión MPEG por hardware para reproducir Video CD. En el periodo navideño posterior a su lanzamiento, el CD32 representó el 38% de todas las ventas de unidades de CD-ROM en el Reino Unido, superando las ventas del Mega-CD; sin embargo, pronto se vio eclipsado por las consolas de juegos basadas en CD-ROM de otras empresas, y se dejó de fabricar cuando Commodore entró en bancarrota.</text>
+  </text>
+</view>
+</theme>

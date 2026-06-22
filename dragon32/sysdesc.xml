@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Dragon 32 and Dragon 64 are home computers that were built in the 1980s. The Dragons are very similar to the TRS-80 Color Computer, and were produced for the European market by Dragon Data, Ltd., initially in Swansea, Wales before moving to Port Talbot, Wales (until 1984) and by Eurohard S.A. in Casar de Cáceres, Spain (from 1984 to 1987), and for the US market by Tano of New Orleans, Louisiana.
+
+The model numbers reflect the primary difference between the two machines, which have 32 and 64 kilobytes (32,768 and 65,536 bytes) of RAM, respectively.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Los Dragon 32 y Dragon 64 son ordenadores domésticos fabricados en la década de 1980. Los Dragon son muy similares al TRS-80 Color Computer, y fueron fabricados para el mercado europeo por Dragon Data, Ltd., inicialmente en Swansea, Gales, antes de trasladarse a Port Talbot, Gales (hasta 1984) y por Eurohard S.A. en Casar de Cáceres, España (de 1984 a 1987), y para el mercado estadounidense por Tano de Nueva Orleans, Luisiana.
+
+Los números de modelo reflejan la principal diferencia entre ambas máquinas, que tienen 32 y 64 kilobytes (32.768 y 65.536 bytes) de RAM, respectivamente.</text>
+  </text>
+</view>
+</theme>

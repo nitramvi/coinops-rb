@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Game Boy Color, (abbreviated as GBC) is a handheld game console manufactured by Nintendo, which was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy. The Game Boy Color, as suggested by the name, features a color screen, but no backlight. It is slightly thicker and taller than the Game Boy Pocket, which is a redesigned Game Boy released in 1996. As with the original Game Boy, it has a custom 8-bit processor somewhat related to a Zilog Z80 central processing unit (CPU). The original name - with its American English spelling of "color" - remained unchanged even in markets where "colour" was the accepted English spelling. The Game Boy Color's primary competitors were the much more advanced Neo Geo Pocket by SNK and the WonderSwan by Bandai (both released in Japan only), though the Game Boy Color outsold these by a wide margin. The Game Boy and Game Boy Color combined have sold 118.69 million units worldwide. It was discontinued in 2003, shortly after the release of the Game Boy Advance SP.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Game Boy Color, (abreviada como GBC) es una videoconsola portátil fabricada por Nintendo, que salió a la venta el 21 de octubre de 1998 en Japón y en noviembre del mismo año en los mercados internacionales. Es la sucesora de la Game Boy. La Game Boy Color, como sugiere su nombre, cuenta con una pantalla en color, pero sin retroiluminación. Es ligeramente más gruesa y alta que la Game Boy Pocket, que es una Game Boy rediseñada lanzada en 1996. Al igual que la Game Boy original, cuenta con un procesador de 8 bits personalizado similar a una unidad central de procesamiento (CPU) Zilog Z80. El nombre original, "color" en inglés americano, se mantuvo sin cambios incluso en mercados en los que "color" era la grafía inglesa aceptada. Los principales competidores de la Game Boy Color fueron la mucho más avanzada Neo Geo Pocket de SNK y la WonderSwan de Bandai (ambas lanzadas sólo en Japón), aunque la Game Boy Color las superó en ventas por un amplio margen. La Game Boy y la Game Boy Color juntas han vendido 118,69 millones de unidades en todo el mundo. Se dejó de fabricar en 2003, poco después del lanzamiento de la Game Boy Advance SP.</text>
+  </text>
+</view>
+</theme>

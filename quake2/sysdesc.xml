@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Quake II is a first-person shooter developed by id Software and released in 1997. Despite its name it follows a separate storyline from the original Quake, pitting the player against the alien Strogg. A landmark for OpenGL-accelerated 3D graphics and online multiplayer, its source code was later released, enabling modern source ports that run the game natively with enhanced visuals.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Quake II es un shooter en primera persona desarrollado por id Software y lanzado en 1997. A pesar de su nombre, sigue una historia independiente del Quake original, enfrentando al jugador contra los alienígenas Strogg. Un referente de los gráficos 3D acelerados por OpenGL y del multijugador en línea, su código fuente se publicó más tarde, permitiendo ports modernos que ejecutan el juego de forma nativa con mejoras visuales.</text>
+  </text>
+</view>
+</theme>

@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Thomson TO8 is a home computer introduced by French company Thomson SA in 1986, with a cost of 2,990 FF. It replaces its predecessor, the Thomson TO7/70, while remaining essentially compatible.  The new features of the TO8, like larger memory (256KB) and better graphics modes (powered by the Thomson EF9369 graphics chip), are shared with the other third generation Thomson computers ( MO6 and TO9+).  The TO8 has a tape drive and Microsoft BASIC 1.0 (in standard and 512 KB versions)[9] on its internal ROM, and there is an optional external floppy drive. Graphics were provided by the Thomson EF9369 chip, allowing the display of 16 colors from a palette of 4096.  More than 120 games exist for the system.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>El Thomson TO8 es un ordenador doméstico presentado por la empresa francesa Thomson SA en 1986, con un coste de 2.990 FF. Sustituye a su predecesor, el Thomson TO7/70, aunque sigue siendo esencialmente compatible.  Las nuevas características del TO8, como una mayor memoria (256 KB) y mejores modos gráficos (gracias al chip gráfico Thomson EF9369), se comparten con los otros ordenadores Thomson de tercera generación ( MO6 y TO9+).  El TO8 tiene una unidad de cinta y Microsoft BASIC 1.0 (en versiones estándar y de 512 KB)[9] en su ROM interna, y hay una unidad de disquete externa opcional. Los gráficos eran proporcionados por el chip Thomson EF9369, que permitía la visualización de 16 colores de una paleta de 4096.  Existen más de 120 juegos para el sistema.</text>
+  </text>
+</view>
+</theme>

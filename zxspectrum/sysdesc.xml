@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The ZX Spectrum is an 8-bit personal home computer released in the United Kingdom in 1982 by Sinclair Research Ltd. It was the follow-up to the Sinclair ZX81. The Spectrum was ultimately released as eight different models (although the models after the Spectrum 128K were technically developed and manufactured by Amstrad), ranging from the entry level model with 16 kB RAM released in 1982 to the ZX Spectrum +3 with 128 kB RAM and built in floppy disk drive. The Spectrum was among the first mainstream audience home computers in the UK, similar in significance to the Commodore 64 in the USA. The Commodore 64, BBC Microcomputer and later the Amstrad CPC range were major rivals to the Spectrum in the UK market during the early 1980s.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>El ZX Spectrum es un ordenador personal doméstico de 8 bits lanzado en el Reino Unido en 1982 por Sinclair Research Ltd. Fue la continuación del Sinclair ZX81. Fue la continuación del Sinclair ZX81. El Spectrum se comercializó en ocho modelos diferentes (aunque los modelos posteriores al Spectrum 128K fueron desarrollados y fabricados técnicamente por Amstrad), que iban desde el modelo básico con 16 kB de RAM comercializado en 1982 hasta el ZX Spectrum +3 con 128 kB de RAM y disquetera integrada. El Spectrum fue uno de los primeros ordenadores domésticos de gran audiencia en el Reino Unido, con una importancia similar a la del Commodore 64 en Estados Unidos. El Commodore 64, el BBC Microcomputer y, más tarde, la gama Amstrad CPC fueron los principales rivales del Spectrum en el mercado británico a principios de la década de 1980.</text>
+  </text>
+</view>
+</theme>

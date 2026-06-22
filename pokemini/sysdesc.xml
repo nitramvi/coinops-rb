@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Pokémon Mini is a handheld game console that was designed and manufactured by Nintendo and themed around the Pokémon media franchise. It is the smallest game system with interchangeable cartridges ever produced by Nintendo, weighing just under two and a half ounces (70 grams). It was first released in North America on November 16, 2001, then in Japan on December 14, 2001, and in Europe on March 15, 2002. The systems were released in three colors: Wooper Blue, Chikorita Green, and Smoochum Purple. Features of the Pokémon mini include an internal real-time clock, an infrared port used to facilitate multiplayer gaming, a reed switch for detecting shakes, and a motor used to implement force feedback. The GameCube game Pokémon Channel features playable demo versions of several Pokémon mini games via console emulation. Also included in the game is Snorlax's Lunch Time, a Pokémon Channel exclusive. Some games were only released in Japan, such as Togepi's Adventure.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Pokémon Mini es una videoconsola portátil diseñada y fabricada por Nintendo en torno a la franquicia Pokémon. Es la consola más pequeña con cartuchos intercambiables jamás fabricada por Nintendo, con un peso de 70 gramos. Salió a la venta en Norteamérica el 16 de noviembre de 2001, en Japón el 14 de diciembre de 2001 y en Europa el 15 de marzo de 2002. Salió a la venta en tres colores: Azul Wooper, Verde Chikorita y Morado Smoochum. Entre las características del Pokémon mini se incluyen un reloj interno en tiempo real, un puerto de infrarrojos utilizado para facilitar el juego multijugador, un interruptor de láminas para detectar las sacudidas y un motor utilizado para implementar la retroalimentación de fuerza. El juego Canal Pokémon de GameCube incluye versiones demo jugables de varios minijuegos Pokémon mediante emulación de consola. También se incluye Snorlax's Lunch Time, una exclusiva de Canal Pokémon. Algunos juegos sólo se lanzaron en Japón, como Togepi's Adventure.</text>
+  </text>
+</view>
+</theme>

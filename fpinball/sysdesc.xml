@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Future Pinball ("FP") is a freeware 3D pinball editing and gaming application for Microsoft Windows. It is similar to Visual Pinball ("VP") and other modern pinball simulation applications. Just as with VP's partnership with Visual PinMAME, FP uses partner applications to emulate original pinball ROM code. In FP's case, the end results of ROM code are simulated by Better Arcade Mode ("BAM") and tools such as "Pinball Browser" and dot-matrix display software plugins. Core FP development was discontinued in 2010, but resumed in 2013 via BAM. BAM features many new developments, such as enhanced physics, optics, and virtual reality support.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Future Pinball ("FP") es una aplicación gratuita de edición y juego de pinball en 3D para Microsoft Windows. Es similar a Visual Pinball ("VP") y otras aplicaciones modernas de simulación de pinball. Al igual que VP con Visual PinMAME, FP utiliza aplicaciones asociadas para emular el código ROM original del pinball. En el caso de FP, los resultados finales del código ROM son simulados por Better Arcade Mode ("BAM") y herramientas como "Pinball Browser" y plugins de software de visualización de matriz de puntos. El desarrollo de Core FP se interrumpió en 2010, pero se reanudó en 2013 a través de BAM. BAM presenta muchas novedades, como mejoras en la física, la óptica y la compatibilidad con la realidad virtual.</text>
+  </text>
+</view>
+</theme>

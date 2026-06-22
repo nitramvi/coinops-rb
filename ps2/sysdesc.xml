@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The PlayStation 2 (PS2) is a home video game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on March 4, 2000, in North America on October 26, 2000, in Europe on November 24, 2000, and Australia on November 24, 2000. It is the successor to the original PlayStation, as well as the second installment in the PlayStation console line-up. A sixth-generation console, it competed with Sega's Dreamcast, Nintendo's GameCube, and Microsoft's original Xbox.
+
+Announced in 1999, the PS2 offered backward-compatibility for its predecessor's DualShock controller, as well as its games. The PS2 is the best-selling video game console of all time, having sold over 155 million units worldwide. Over 3,800 game titles have been released for the PS2, with over 1.5 billion copies sold. Sony later manufactured several smaller, lighter revisions of the console known as Slimline models in 2004.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La PlayStation 2 (PS2) es una videoconsola doméstica desarrollada y comercializada por Sony Computer Entertainment. Salió a la venta en Japón el 4 de marzo de 2000, en Norteamérica el 26 de octubre de 2000, en Europa el 24 de noviembre de 2000 y en Australia el 24 de noviembre de 2000. Es la sucesora de la PlayStation original y la segunda entrega de la gama de consolas PlayStation. Esta consola de sexta generación compitió con la Dreamcast de Sega, la GameCube de Nintendo y la Xbox original de Microsoft.
+
+Anunciada en 1999, la PS2 ofrecía retrocompatibilidad con el mando DualShock de su predecesora, así como con sus juegos. La PS2 es la videoconsola más vendida de todos los tiempos, con más de 155 millones de unidades vendidas en todo el mundo. Se han publicado más de 3.800 títulos para la PS2, con más de 1.500 millones de copias vendidas. Más tarde, en 2004, Sony fabricó varias revisiones más pequeñas y ligeras de la consola, conocidas como modelos Slimline.</text>
+  </text>
+</view>
+</theme>

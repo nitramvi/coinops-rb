@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Sega Mark III is a third-generation 8-bit home video game console manufactured by Sega, as the third iteration of the SG-1000 series of consoles. It was released in Japan in 1985 and featured enhanced graphical capabilities over its predecessors. Outside of Japan it was branded as the Sega Master System.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Sega Mark III es una videoconsola doméstica de 8 bits de tercera generación fabricada por Sega, como tercera iteración de la serie SG-1000 de consolas. Salió a la venta en Japón en 1985 y ofrecía funciones gráficas mejoradas con respecto a sus predecesoras. Fuera de Japón se denominó Sega Master System.</text>
+  </text>
+</view>
+</theme>

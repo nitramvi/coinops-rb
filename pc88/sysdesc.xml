@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The PC-8800 series (Japanese: PC-8800シリーズ, Hepburn: Pī Shī Hassen Happyaku Shirīzu), commonly shortened to PC-88, are a brand of Zilog Z80-based 8-bit home computers released by Nippon Electric Company (NEC) in 1981 and primarily sold in Japan.
+
+The PC-8800 series sold extremely well and became one of the four major Japanese home computers of the 1980s, along with the Fujitsu FM-7, Sharp X1 and the MSX computers. It was later eclipsed by NEC's 16-bit PC-9800 series, although it still maintained strong sales up until the early 90s.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La serie PC-8800 (en japonés: PC-8800シリーズ, en hepburn: Pī Shī Hassen Happyaku Shirīzu), comúnmente abreviada como PC-88, es una marca de ordenadores domésticos de 8 bits basados en Z80 de Zilog lanzados por Nippon Electric Company (NEC) en 1981 y vendidos principalmente en Japón.
+
+La serie PC-8800 se vendió muy bien y se convirtió en uno de los cuatro principales ordenadores domésticos japoneses de la década de 1980, junto con el Fujitsu FM-7, el Sharp X1 y los ordenadores MSX. Más tarde fue eclipsada por la serie PC-9800 de 16 bits de NEC, aunque mantuvo unas fuertes ventas hasta principios de los años 90.</text>
+  </text>
+</view>
+</theme>

@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Sega Saturn is a home video game console developed by Sega and released on November 22, 1994 in Japan, May 11, 1995 in North America, and July 8, 1995 in Europe. Part of the fifth generation of video game consoles, it was the successor to the successful Sega Genesis. The Saturn has a dual-CPU architecture and eight processors. Its games are in CD-ROM format, and its game library contains several ports of arcade games as well as original games.
+
+Development of the Saturn began in 1992, the same year Sega's groundbreaking 3D Model 1 arcade hardware debuted. The Saturn was designed around a new CPU from Japanese electronics company Hitachi. Sega added another video display processor in early 1994 to better compete with Sony's forthcoming PlayStation.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Sega Saturn es una videoconsola doméstica desarrollada por Sega y lanzada el 22 de noviembre de 1994 en Japón, el 11 de mayo de 1995 en Norteamérica y el 8 de julio de 1995 en Europa. Perteneciente a la quinta generación de consolas de videojuegos, fue la sucesora de la exitosa Sega Genesis. La Saturn tiene una arquitectura de doble CPU y ocho procesadores. Sus juegos están en formato CD-ROM, y su biblioteca contiene varios ports de juegos arcade, así como juegos originales.
+
+El desarrollo de la Saturn comenzó en 1992, el mismo año en que debutó la innovadora máquina recreativa 3D Model 1 de Sega. La Saturn se diseñó en torno a una nueva CPU de la empresa electrónica japonesa Hitachi. Sega añadió otro procesador de visualización de vídeo a principios de 1994 para competir mejor con la futura PlayStation de Sony.</text>
+  </text>
+</view>
+</theme>

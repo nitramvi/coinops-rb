@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The N-Gage is a smartphone combining features of a mobile phone and a handheld game system developed by Nokia, announced on 4 November 2002 and released on 7 October 2003. It runs the original Series 60 platform on Symbian OS v6.1.
+
+N-Gage attempted to lure gamers away from the Game Boy Advance by including telephone functionality. This was unsuccessful, partly because the buttons, designed for a telephone, were not well-suited for gaming. The original N-Gage was described as resembling a taco, which led to its mocking nickname "taco phone".</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>El N-Gage es un teléfono inteligente que combina características de un teléfono móvil y un sistema de juegos portátil desarrollado por Nokia, anunciado el 4 de noviembre de 2002 y lanzado el 7 de octubre de 2003. Utiliza la plataforma original Series 60 en Symbian OS v6.1.
+
+N-Gage trató de alejar a los jugadores de Game Boy Advance incluyendo funciones telefónicas. No tuvo éxito, en parte porque los botones, diseñados para un teléfono, no se adaptaban bien a los juegos. Se dijo que el N-Gage original se parecía a un taco, lo que le valió el apodo de "teléfono taco".</text>
+  </text>
+</view>
+</theme>

@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Apple IIGS is a personal computer released by Apple Computer on September 15, 1986 that's compatible with the Apple II series, but otherwise has capabilities comparable to the Atari ST, Commodore Amiga, and Macintosh. The "GS" in the name stands for "Graphics" and "Sound," referring to its enhanced multimedia hardware, especially its state of the art sound and music synthesis. The machine is a radical departure from any previous Apple II, with its 16-bit processor, direct access to megabytes of RAM, and mouse. It's the first computer produced by Apple to use a color graphical user interface (color was introduced on the Macintosh II six months later) and Apple Desktop Bus interface for keyboards, mice, and other input devices. It is the first personal computer to come with a built-in wavetable synthesis chip, utilizing technology from Ensoniq.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>El Apple IIGS es un ordenador personal lanzado por Apple Computer el 15 de septiembre de 1986, compatible con la serie Apple II, pero con capacidades comparables a las del Atari ST, Commodore Amiga y Macintosh. El "GS" del nombre significa "Graphics" (gráficos) y "Sound" (sonido), en referencia a su hardware multimedia mejorado, especialmente su síntesis de sonido y música de última generación. La máquina se aleja radicalmente de cualquier Apple II anterior, con su procesador de 16 bits, acceso directo a megabytes de RAM y ratón. Es el primer ordenador fabricado por Apple que utiliza una interfaz gráfica de usuario en color (el color se introdujo en el Macintosh II seis meses después) y la interfaz Apple Desktop Bus para teclados, ratones y otros dispositivos de entrada. Es el primer ordenador personal que incorpora un chip de síntesis de tabla de ondas, con tecnología de Ensoniq.</text>
+  </text>
+</view>
+</theme>

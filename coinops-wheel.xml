@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CoinOPS-RB : true curved marquee WHEEL view (gamecarousel), reusing the CoinOps cabinet + fanart look -->
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="gamecarousel" displayName="CoinOPS Wheel">
+
+    <!-- System background fanart (fallback). HD wins, then 540, then brick. Both var forms for safety. -->
+    <image name="art" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/brickwall_bg.png</path>
+      <path>./assets/arts/540/${system.theme}.jpg</path>
+      <path>./assets/arts/hd/${system.theme}.jpg</path>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>2</zIndex>
+    </image>
+
+    <!-- Per-GAME fanart, ES-DE 16:10 framing (pos/origin/maxSize from coinops-es-de).
+         No hue overlay: the purple fanarthue is what ES-DE's "No Hue" look omits.
+         The cabinet (z7) hides the fanart's left edge, so no hard seam. -->
+    <image name="md_fanart">
+      <pos>1 0.5</pos>
+      <origin>0.878 0.5</origin>
+      <maxSize>1.5 1</maxSize>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>3</zIndex>
+    </image>
+
+    <!-- Darkening hue over the fanart, EXACT ES-DE 16:10 values (default.xml) - same anchor as the
+         fanart so it aligns (no stray block). This is what makes ES-DE's fanart look darker/moodier. -->
+    <image name="fanarthue" extra="true">
+      <pos>1 0.5</pos>
+      <origin>0.878 0.5</origin>
+      <maxSize>1.5 1</maxSize>
+      <path>./assets/fanarthue.png</path>
+      <zIndex>4</zIndex>
+    </image>
+
+    <!-- Default TV-screen content, shown whenever the game has NO video. It sits ABOVE the
+         screenshot/titlescreen but BELOW the real game video, so: the game video wins if present,
+         otherwise the "no signal" default shows — even when a screenshot/cover exists.
+         REPLACEABLE: swap ./assets/screen-default/default.mp4 (video) or default.png (image). -->
+    <image name="screen_default" extra="true">
+      <pos>0.279 0.538</pos>
+      <maxSize>0.396 0.580</maxSize>
+      <origin>0.5 0.5</origin>
+      <path>./assets/screen-default/default.png</path>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>7</zIndex>
+    </image>
+    <!-- Default "no signal" VIDEO (muted). Above the no-signal image + screenshot/title, below the game video. -->
+    <video name="screen_default_video" extra="true">
+      <pos>0.279 0.538</pos>
+      <maxSize>0.396 0.580</maxSize>
+      <origin>0.5 0.5</origin>
+      <path>./assets/screen-default/default.mp4</path>
+      <audio>false</audio>
+      <zIndex>7</zIndex>
+    </video>
+
+    <!-- Game video, seated in the TV screen. showSnapshotNoVideo=false: when there's NO game
+         video we fall through to the "no signal" default (z7) instead of showing a static snapshot. -->
+    <video name="md_video">
+      <pos>0.279 0.538</pos>
+      <maxSize>0.396 0.580</maxSize>
+      <origin>0.5 0.5</origin>
+      <delay>0</delay>
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+      <showSnapshotDelay>false</showSnapshotDelay>
+      <zIndex>8</zIndex>
+    </video>
+    <!-- Screenshot / titlescreen: below the no-signal default, so they only show if the default
+         screen-default assets are removed. -->
+    <image name="md_image">
+      <pos>0.279 0.538</pos>
+      <maxSize>0.396 0.580</maxSize>
+      <origin>0.5 0.5</origin>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>6</zIndex>
+    </image>
+    <image name="md_titleshot">
+      <pos>0.279 0.538</pos>
+      <maxSize>0.396 0.580</maxSize>
+      <origin>0.5 0.5</origin>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>5</zIndex>
+    </image>
+
+    <!-- Arcade cabinet / TV (ES-DE art), transparent screen. Last existing path wins. -->
+    <!-- Cabinet kept at 16:9 aspect (size 0 1 = auto width), like ES-DE 16:10, so the TV and the
+         top marquee aren't squished. pos -0.04 matches ES-DE's cabinetimage 16:10 offset. -->
+    <image name="art3" extra="true">
+      <origin>0 0</origin>
+      <pos>-0.04 0</pos>
+      <size>0 1</size>
+      <path>./assets/coinops/default.png</path>
+      <path>./assets/coinops/${system.theme}.png</path>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>9</zIndex>
+    </image>
+
+    <!-- Scene overlay: diamond texture (CoinOPS gamelistbackgroundoverlay, z45 over cabinet) -->
+    <image name="overlayDiamonds" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/overlaydiamonds2.png</path>
+      <zIndex>10</zIndex>
+    </image>
+
+    <!-- ===== Curved marquee WHEEL, upper-right (leaves room for the bottom data bar) ===== -->
+    <gamecarousel name="gamecarousel">
+      <type>vertical_wheel</type>
+      <!-- pos.x tuned to match ES-DE wheel position (0.31 too left, 0.37 too right) -->
+      <pos>0.34 0</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <imageSource>marquee</imageSource>
+      <!-- FULL-size box (like multi-logo themes e.g. Hypermax) so curved logos aren't culled at a
+           narrow box edge -> many logos visible, no flicker. logoSize now relative to full screen:
+           0.15 wide non-selected, x1.5 = 0.225 selected (same on-screen size as before / ES-DE). -->
+      <maxLogoCount>19</maxLogoCount>
+      <logoSize>0.15 0.13</logoSize>
+      <logoScale>1.5</logoScale>
+      <logoAlignment>center</logoAlignment>
+      <logoRotation>-7</logoRotation>
+      <logoRotationOrigin>4.03 0.5</logoRotationOrigin>
+      <!-- Loop the games continuously so a short list (e.g. 3 games) fills the wheel and the
+           top/bottom logos stay visible at rest instead of flickering at the loop seam. -->
+      <scrollLoop>true</scrollLoop>
+      <!-- Non-selected logos at full opacity (verified engine property: minLogoOpacity) -->
+      <minLogoOpacity>1</minLogoOpacity>
+      <zIndex>50</zIndex>
+    </gamecarousel>
+    <image name="gamecarouselLogo">
+      <linearSmooth>true</linearSmooth>
+      <shader>:/shaders/shadow.glsl</shader>
+    </image>
+    <text name="gamecarouselLogoText">
+      <fontPath>./_inc/fonts/OpenSans-Semibold.ttf</fontPath>
+      <fontSize>0.045</fontSize>
+      <color>FFFFFFFF</color>
+      <glowColor>000000A0</glowColor>
+      <glowSize>3</glowSize>
+      <forceUppercase>true</forceUppercase>
+    </text>
+
+    <!-- NOTE: no separate system logo here on purpose; the cabinet art already
+         includes the system marquee (avoids the duplicate logo). -->
+
+    <!-- Foreground vignette (CoinOPS gamelistforegroundoverlay, z55 over the wheel) -
+         darkens the right edge/corners -> the moody look that tones down the fanart -->
+    <image name="overlayVignette" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/overlay_coinops.png</path>
+      <zIndex>52</zIndex>
+    </image>
+
+    <!-- Bottom black bar (CoinOPS-es-de overbar): solid black at the bottom for metadata contrast -->
+    <image name="overbar" extra="true">
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/overbar.png</path>
+      <zIndex>55</zIndex>
+    </image>
+
+    <!-- ===== Bottom data bar (mirrors CoinOPS-es-de default.xml) ===== -->
+
+    <!-- Game name + description, bottom-left -->
+    <!-- Title - ES-DE typography (Exo2-BoldCondensed), position/color like coinops-es-de nametext -->
+    <text name="md_name">
+      <pos>0.02 0.818</pos>
+      <size>0.43 0.055</size>
+      <fontSize>0.042</fontSize>
+      <color>BBBBBB</color>
+      <glowColor>000000A0</glowColor>
+      <glowSize>2</glowSize>
+      <alignment>left</alignment>
+      <fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath>
+      <zIndex>60</zIndex>
+    </text>
+    <text name="md_description">
+      <pos>0.02 0.882</pos>
+      <size>0.34 0.11</size>
+      <fontSize>0.018</fontSize>
+      <color>FFFFFF</color>
+      <glowColor>000000A0</glowColor>
+      <glowSize>1</glowSize>
+      <lineSpacing>1.26</lineSpacing>
+      <alignment>left</alignment>
+      <fontPath>./_inc/fonts/Circular Std Book.ttf</fontPath>
+      <zIndex>60</zIndex>
+    </text>
+
+    <!-- Boxart / cover - EXACT ES-DE cover position/size (default.xml: pos .58 .99, maxSize .18 .30) -->
+    <image name="md_thumbnail">
+      <pos>0.58 0.99</pos>
+      <origin>0.5 1</origin>
+      <maxSize>0.18 0.30</maxSize>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>60</zIndex>
+    </image>
+
+    <!-- ===== Center column: rating + players/developer/publisher (cloned from coinops-es-de default.xml) ===== -->
+    <rating name="md_rating">
+      <pos>0.6765 0.865</pos>
+      <origin>0 0.5</origin>
+      <size>0 0.04</size>
+      <filledPath>./assets/star_filled.svg</filledPath>
+      <unfilledPath>./assets/star_unfilled.svg</unfilledPath>
+      <color>BBBBBB</color>
+      <zIndex>61</zIndex>
+    </rating>
+
+    <image name="ic_players" extra="true">
+      <path>./assets/icon-players.svg</path>
+      <pos>0.68 0.9</pos><origin>0 0.5</origin><maxSize>0.027 0.027</maxSize>
+      <color>BBBBBB</color><zIndex>61</zIndex>
+    </image>
+    <image name="ic_developer" extra="true">
+      <path>./assets/icon-developer.svg</path>
+      <pos>0.68 0.935</pos><origin>0 0.5</origin><maxSize>0.027 0.027</maxSize>
+      <color>BBBBBB</color><zIndex>61</zIndex>
+    </image>
+    <image name="ic_publisher" extra="true">
+      <path>./assets/icon-publisher.svg</path>
+      <pos>0.68 0.97</pos><origin>0 0.5</origin><maxSize>0.027 0.027</maxSize>
+      <color>BBBBBB</color><zIndex>61</zIndex>
+    </image>
+
+    <text name="md_players, md_developer, md_publisher">
+      <origin>0 0.5</origin><size>0.1 0.018</size><fontSize>0.02</fontSize>
+      <color>BBBBBB</color><fontPath>./_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+      <glowColor>000000A0</glowColor><glowSize>1</glowSize><alignment>left</alignment><zIndex>61</zIndex>
+    </text>
+    <text name="md_players">   <pos>0.7 0.9</pos></text>
+    <text name="md_developer"> <pos>0.7 0.935</pos></text>
+    <text name="md_publisher"> <pos>0.7 0.97</pos></text>
+
+    <!-- ===== Far-right column: System / Release Date / Play Time / Last Played (cloned from coinops-es-de) =====
+         ES-DE look: gray (BBBBBB) labels in Exo2-BoldCondensed + gray values in Exo2-RegularCondensed,
+         no forced uppercase, labels right-aligned at x.78, values left at x.885. -->
+    <text name="md_lbl_releasedate, md_lbl_lastplayed, md_lbl_gametime, lbl_system">
+      <fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath><fontSize>0.02</fontSize>
+      <color>BBBBBB</color><glowColor>000000A0</glowColor><glowSize>1</glowSize>
+      <alignment>right</alignment><zIndex>61</zIndex>
+    </text>
+    <text name="val_system">
+      <fontPath>./_inc/fonts/Exo2-RegularCondensed.otf</fontPath><fontSize>0.02</fontSize>
+      <color>BBBBBB</color><glowColor>000000A0</glowColor><glowSize>1</glowSize><alignment>left</alignment><zIndex>61</zIndex>
+    </text>
+    <datetime name="md_releasedate, md_lastplayed, md_gametime">
+      <fontPath>./_inc/fonts/Exo2-RegularCondensed.otf</fontPath><fontSize>0.02</fontSize>
+      <color>BBBBBB</color><glowColor>000000A0</glowColor><glowSize>1</glowSize><alignment>left</alignment><zIndex>61</zIndex>
+    </datetime>
+
+    <text name="lbl_system" extra="true"><text>System:</text>       <pos>0.78 0.865</pos> <size>0.1 0.018</size> </text>
+    <text name="val_system" extra="true"><text>${system.fullName}</text> <pos>0.885 0.865</pos> <size>0.107 0.02</size> </text>
+    <text name="md_lbl_releasedate"> <pos>0.78 0.9</pos>   <size>0.1 0.018</size> </text>
+    <datetime name="md_releasedate"> <pos>0.885 0.9</pos>  <size>0.107 0.018</size> <format>%Y-%m-%d</format> </datetime>
+    <text name="md_lbl_gametime">    <pos>0.78 0.935</pos> <size>0.1 0.018</size> </text>
+    <datetime name="md_gametime">    <pos>0.885 0.935</pos><size>0.107 0.018</size> </datetime>
+    <text name="md_lbl_lastplayed">  <pos>0.78 0.97</pos>  <size>0.1 0.018</size> </text>
+    <datetime name="md_lastplayed">  <pos>0.885 0.97</pos> <size>0.107 0.018</size> </datetime>
+
+    <!-- Help bar: mirrors coinops-es-de exactly (centered, gray BBBBBB, Exo2-RegularCondensed, 0.025) -->
+    <helpsystem name="help">
+      <pos>0.5 0.005</pos>
+      <origin>0.5 0</origin>
+      <textColor>BBBBBB</textColor>
+      <iconColor>BBBBBB</iconColor>
+      <fontPath>./_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+      <fontSize>0.025</fontSize>
+      <iconTextSpacing>0.003</iconTextSpacing>
+    </helpsystem>
+
+  </view>
+</theme>

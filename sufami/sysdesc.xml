@@ -1,0 +1,41 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The SuFami Turbo (スーファミターボ), often compared to the Aladdin Deck Enhancer, is an accessory released by Bandai for Nintendo's Super Famicom system and was released in 1996.
+
+This device is designed to sit on top of the Super Famicom, and features two cartridge slots. The premise is that games could be produced at a much lower cost and development time, not having to rely on Nintendo for cartridge production. Unlike the Aladdin Deck Enhancer, this device was officially approved by Nintendo under the provision that Bandai handle all the hardware manufacturing itself.
+
+The two cartridge slots are designed to share data between the games. The cartridge placed in slot 1 is the game that will be played, while the cartridge in slot 2 supplies additional data for use in the main game. Of the thirteen games released, nine of them can link up, within each game series.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>El SuFami Turbo (スーファミターボ), a menudo comparado con el Aladdin Deck Enhancer, es un accesorio lanzado por Bandai para la consola Super Famicom de Nintendo y fue lanzado en 1996.
+
+Este dispositivo está diseñado para colocarse encima de la Super Famicom, y cuenta con dos ranuras para cartuchos. La premisa es que los juegos podrían producirse con un coste y un tiempo de desarrollo mucho menores, al no tener que depender de Nintendo para la producción de cartuchos. A diferencia del Aladdin Deck Enhancer, este dispositivo fue aprobado oficialmente por Nintendo con la condición de que Bandai se encargara de la fabricación del hardware.
+
+Las dos ranuras para cartuchos están diseñadas para compartir datos entre los juegos. El cartucho colocado en la ranura 1 es el juego al que se jugará, mientras que el cartucho de la ranura 2 suministra datos adicionales para su uso en el juego principal. De los trece juegos lanzados, nueve de ellos pueden enlazarse, dentro de cada serie de juegos.</text>
+  </text>
+</view>
+</theme>

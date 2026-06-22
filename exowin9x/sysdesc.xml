@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>eXoWin9x is part of the eXoDOS project, a curated collection that preserves and preconfigures games released for Microsoft Windows 9x (95, 98 and ME). Each title comes ready to run through a preconfigured Windows environment, bringing classic late-90s and early-2000s PC games back to life on modern systems without manual setup.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>eXoWin9x forma parte del proyecto eXoDOS, una colección curada que preserva y preconfigura juegos publicados para Microsoft Windows 9x (95, 98 y ME). Cada título está listo para ejecutarse mediante un entorno de Windows preconfigurado, devolviendo a la vida en sistemas modernos los clásicos del PC de finales de los 90 y principios de los 2000 sin configuración manual.</text>
+  </text>
+</view>
+</theme>

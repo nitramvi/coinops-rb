@@ -1,0 +1,41 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The V.Smile (stylized as V.SMILE TV LEARNING SYSTEM) is a sixth-generation educational home video game console manufactured and released by VTech. Titles are available on ROM cartridges called "Smartridges", to play off the system's educational nature. The graphics are primarily sprite-based. The console is often sold bundled with a particular game, with most of them having a game called Alphabet Park Adventure.
+
+Several variants of the V.Smile console are sold including handheld versions, or models with added functionality such as touch tablet integrated controllers or microphones. The V-Motion is a major variant with its own software lineup that includes motion sensitive controllers, and has Smartriges designed to take advantage of motion-related "active learning". The V-Motion and Smartridges however, are fully backwards compatible with other V.Smile variants and V.Smile Smartridges, and a V-Motion Smartridge can also be played on V.Smile console or handheld, albeit with limited functionality. However, in 2010, the new and old models of the V.Smile were discontinued. VTech still made games for the V.Smile until 2012.
+
+Some key differentiators between systems and the ability to fully utilize all game functions include the options of a microphone, touch tablet, additional joystick port (for 2-player gameplay), stylus-enhanced controller, or motion sensitive game pad (with V-Motion).</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La V.Smile (estilizada como V.SMILE TV LEARNING SYSTEM) es una videoconsola doméstica educativa de sexta generación fabricada y comercializada por VTech. Los títulos están disponibles en cartuchos ROM llamados "Smartridges", para resaltar la naturaleza educativa del sistema. Los gráficos se basan principalmente en sprites. La consola suele venderse con un juego en particular, y la mayoría de ellas tienen un juego llamado Alphabet Park Adventure.
+
+Se venden varias variantes de la consola V.Smile, incluidas versiones portátiles o modelos con funciones añadidas, como controladores integrados en tabletas táctiles o micrófonos. La V-Motion es una variante importante con su propia línea de software que incluye controladores sensibles al movimiento, y cuenta con Smartriges diseñados para aprovechar el "aprendizaje activo" relacionado con el movimiento. Sin embargo, el V-Motion y los Smartridges son totalmente compatibles con otras variantes de V.Smile y V.Smile Smartridges, y también se puede jugar a un V-Motion Smartridge en la consola o el dispositivo portátil V.Smile, aunque con una funcionalidad limitada. Sin embargo, en 2010, los modelos nuevos y antiguos del V.Smile fueron descatalogados. VTech siguió fabricando juegos para el V.Smile hasta 2012.
+
+Algunas de las principales diferencias entre los sistemas y la capacidad de utilizar plenamente todas las funciones del juego incluyen las opciones de un micrófono, una tableta táctil, un puerto de joystick adicional (para el juego de 2 jugadores), un controlador mejorado con lápiz óptico o un game pad sensible al movimiento (con V-Motion).</text>
+  </text>
+</view>
+</theme>

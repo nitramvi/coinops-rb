@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The TI-99/4 is a home computer released in late 1979 by Texas Instruments. Based on the Texas Instruments TMS9900 microprocessor originally used in minicomputers, it was the first 16-bit home computer. The associated video display controller provides color graphics and among the best sprite support of its era.
+
+It includes a simplified internal design, a full-travel keyboard, improved graphics, and a unique expansion system. At half the price of the original model, sales picked up significantly. TI supported the 4A with peripherals, including a speech synthesizer and a "Peripheral Expansion System" box to contain hardware add-ons. TI released developer information and tools, but the insistence on remaining sole publisher continued to starve the platform of software.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>El TI-99/4 es un ordenador doméstico lanzado a finales de 1979 por Texas Instruments. Basado en el microprocesador TMS9900 de Texas Instruments, utilizado originalmente en miniordenadores, fue el primer ordenador doméstico de 16 bits. El controlador de pantalla de vídeo asociado proporciona gráficos en color y uno de los mejores soportes de sprites de su época.
+
+Incluye un diseño interno simplificado, un teclado de recorrido completo, gráficos mejorados y un sistema de expansión único. A mitad de precio que el modelo original, las ventas aumentaron considerablemente. TI apoyó el 4A con periféricos, incluido un sintetizador de voz y una caja "Peripheral Expansion System" para contener complementos de hardware. TI publicó información y herramientas para desarrolladores, pero la insistencia en seguir siendo el único editor siguió privando a la plataforma de software.</text>
+  </text>
+</view>
+</theme>

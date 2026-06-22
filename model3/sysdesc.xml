@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Sega Model 3 is an arcade platform produced by Sega in partnership with Lockheed Martin. It is a successor to the Sega Model 2 platform, and was released in 1996. The Model 3 hardware is very different to the Model 1 and Model 2 boards which preceded it. It was desinged with one purpose in mind - to push as many textured polygons as possible for as least money as possible. Upon release, the Model 3 board was more powerful than any other arcade platform on the market, as well as any home console or computer.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Sega Model 3 es una plataforma arcade producida por Sega en colaboración con Lockheed Martin. Es sucesora de la plataforma Sega Model 2, y salió a la venta en 1996. El hardware del Model 3 es muy diferente de las plataformas Model 1 y Model 2 que lo precedieron. Se diseñó con un único objetivo: ofrecer la mayor cantidad de polígonos texturizados por el menor coste posible. En el momento de su lanzamiento, la placa Model 3 era más potente que cualquier otra plataforma arcade del mercado, así como que cualquier consola doméstica u ordenador.</text>
+  </text>
+</view>
+</theme>

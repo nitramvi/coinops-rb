@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Amstrad Colour Personal Computer, better known as the Amstrad CPC, is a series of 8-bit home computers designed by Amstrad. The first models were released in April 1984 in Europe at a retail price ranging from £199 to £299, depending on the package bought. The computers were not released outside of Europe. The CPC series had five distinct models: The CPC464, CPC664, CPC6128, 464plus, and 6128plus. The computers were manufactured until an unspecified time in 1990.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>El Amstrad Colour Personal Computer, más conocido como Amstrad CPC, es una serie de ordenadores domésticos de 8 bits diseñados por Amstrad. Los primeros modelos salieron a la venta en abril de 1984 en Europa a un precio de venta al público que oscilaba entre 199 y 299 libras, dependiendo del paquete adquirido. Los ordenadores no salieron a la venta fuera de Europa. La serie CPC tenía cinco modelos distintos: CPC464, CPC664, CPC6128, 464plus y 6128plus. Los ordenadores se fabricaron hasta una fecha no especificada de 1990.</text>
+  </text>
+</view>
+</theme>

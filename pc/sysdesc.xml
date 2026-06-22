@@ -1,0 +1,41 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The IBM Personal Computer (model 5150, commonly known as the IBM PC) is the first microcomputer released in the IBM PC model line and the basis for the IBM PC compatible de facto standard. Released on August 12, 1981, it was created by a team of engineers and designers directed by Don Estridge in Boca Raton, Florida.
+
+The machine was based on open architecture and third-party peripherals. Over time, expansion cards and software technology increased to support it.
+
+The PC had a substantial influence on the personal computer market. The specifications of the IBM PC became one of the most popular computer design standards in the world. The only significant competition it faced from a non-compatible platform throughout the 1980s was from the Apple Macintosh product line. The majority of modern personal computers are distant descendants of the IBM PC.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>El IBM Personal Computer (modelo 5150, comúnmente conocido como IBM PC) es el primer microordenador lanzado en la línea de modelos IBM PC y la base del estándar de facto IBM PC compatible. Lanzado el 12 de agosto de 1981, fue creado por un equipo de ingenieros y diseñadores dirigido por Don Estridge en Boca Ratón, Florida.
+
+La máquina se basaba en una arquitectura abierta y periféricos de terceros. Con el tiempo, aumentaron las tarjetas de expansión y la tecnología de software compatibles.
+
+El PC tuvo una influencia sustancial en el mercado de los ordenadores personales. Las especificaciones del IBM PC se convirtieron en uno de los estándares de diseño informático más populares del mundo. La única competencia significativa a la que se enfrentó desde una plataforma no compatible a lo largo de la década de 1980 fue la de la línea de productos Apple Macintosh. La mayoría de los ordenadores personales modernos son descendientes lejanos del IBM PC.</text>
+  </text>
+</view>
+</theme>

@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>2 Ship 2 Harkinian is a native PC port of The Legend of Zelda: Majora's Mask, built from the reverse-engineered source of the Nintendo 64 game. A companion to Ship of Harkinian (Ocarina of Time), it runs the game natively with modern enhancements such as higher resolutions, widescreen, uncapped frame rates, mod support and quality-of-life options. A copy of the original ROM is required to extract the game's assets.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>2 Ship 2 Harkinian es un port nativo para PC de The Legend of Zelda: Majora's Mask, creado a partir del código fuente obtenido por ingeniería inversa del juego de Nintendo 64. Hermano de Ship of Harkinian (Ocarina of Time), ejecuta el juego de forma nativa con mejoras modernas como mayores resoluciones, formato panorámico, framerate sin límite, soporte de mods y opciones de calidad de vida. Requiere una copia de la ROM original para extraer los recursos del juego.</text>
+  </text>
+</view>
+</theme>

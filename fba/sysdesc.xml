@@ -1,0 +1,41 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>This source-available project is based on FinalBurn, created by Dave in 2000. It has been programmed by a team composed of Barry Harris (Old username: TrebleWinner), Jan_Klaassen, KEV, LoopMaster, Mike Haggar, Hyper Yagami and Ayeye.
+
+FinalBurn was one of the first Capcom CPS2 emulators. When this project came to a halt in 2001, its sources were widely disseminated, allowing the development of many unofficial versions, of which FBA is the most successful.
+
+Differentiated from other emulators by a very large number of supported systems, FB Alpha also offers a clear interface (simple like that of Kawaks) and excellent performance. The icing on the cake; it's not resource-intensive, and you don't need to indulge in complex settings to take it in hand immediately, although its menus are natively in English.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Este proyecto de código fuente disponible se basa en FinalBurn, creado por Dave en 2000. Ha sido programado por un equipo compuesto por Barry Harris (Antiguo nombre de usuario: TrebleWinner), Jan_Klaassen, KEV, LoopMaster, Mike Haggar, Hyper Yagami y Ayeye.
+
+FinalBurn fue uno de los primeros emuladores de CPS2 de Capcom. Cuando este proyecto se detuvo en 2001, sus fuentes se difundieron ampliamente, permitiendo el desarrollo de muchas versiones no oficiales, de las cuales FBA es la más exitosa.
+
+Diferenciado de otros emuladores por el gran número de sistemas compatibles, FB Alpha también ofrece una interfaz clara (sencilla como la de Kawaks) y un rendimiento excelente. La guinda del pastel: no consume muchos recursos y no es necesario recurrir a complejas configuraciones para hacerse con él de inmediato, aunque sus menús están nativamente en inglés.</text>
+  </text>
+</view>
+</theme>

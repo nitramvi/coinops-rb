@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Atari Jaguar CD is a fifth generation (1993–2005) CD-ROM peripheral for the Atari Jaguar video game console developed and distributed by Atari Corporation. It was released in September 1995 in North America at a retail price of $149.95. The peripheral was also released in Europe (1995). The Jaguar CD unit featured a double-speed (2×) drive and its own cartridge slot to allow cartridge games to be played without removing the CD drive. The peripheral was discontinued in early 1996, possibly at the time of the company's sale on April 8, 1996.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>El Atari Jaguar CD es un periférico CD-ROM de quinta generación (1993-2005) para la videoconsola Atari Jaguar desarrollado y distribuido por Atari Corporation. Salió a la venta en septiembre de 1995 en Norteamérica a un precio de 149,95 dólares. El periférico también salió a la venta en Europa (1995). La unidad de CD Jaguar contaba con una unidad de doble velocidad (2×) y su propia ranura para cartuchos que permitía jugar a juegos de cartucho sin necesidad de extraer la unidad de CD. El periférico se dejó de fabricar a principios de 1996, posiblemente en el momento de la venta de la empresa el 8 de abril de 1996.</text>
+  </text>
+</view>
+</theme>

@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>The Game Master is a handheld game console manufactured by Hartung, and designed to compete with the Nintendo Game Boy. In Germany, it was marketed by Hartung itself, while in the UK it was released as the Systema 2000 by the already well-established maker of cheap LCD games Systema. It was also sold a few under alternate names in France, including the Videojet Game Master as well as for a few released by Hartung as the Hartung Super Game and the Hartung Game Tronic. The Game Master has a 64x64 monochrome LCD screen.
+
+The design was much like the Game Gear with a D-Pad and two action buttons, although another variation, the Game Plus, features a more Game Boy-like design which is backed by a company called Caterpillar and was sold by Delplay in France. The cartridges resemble those used by the Watara Supervision, with the card edge of the cartridge jutted out past the plastic of the cartridge. The Game Master utilizes a 40-pin cartridge port like the Supervision but is not compatible with Supervision games.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>La Game Master es una consola portátil fabricada por Hartung y diseñada para competir con la Nintendo Game Boy. En Alemania, fue comercializada por la propia Hartung, mientras que en el Reino Unido fue lanzada como Systema 2000 por el ya consolidado fabricante de juegos LCD baratos Systema. En Francia también se vendió con otros nombres, como Videojet Game Master y Hartung Super Game y Hartung Game Tronic. El Game Master tiene una pantalla LCD monocroma de 64x64.
+
+El diseño era muy parecido al de la Game Gear, con un D-Pad y dos botones de acción, aunque otra variante, la Game Plus, presenta un diseño más parecido al de la Game Boy, respaldada por una empresa llamada Caterpillar y comercializada por Delplay en Francia. Los cartuchos se parecen a los utilizados por la Watara Supervision, con el borde de la tarjeta sobresaliendo del plástico del cartucho. La Game Master utiliza un puerto para cartuchos de 40 patillas, como la Supervision, pero no es compatible con los juegos de esta última.</text>
+  </text>
+</view>
+</theme>

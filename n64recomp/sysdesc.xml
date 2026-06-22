@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Nintendo 64 Recompilation (N64: Recompiled) is a project that statically recompiles Nintendo 64 games into native PC executables. Rather than emulating the hardware, it translates the original machine code so titles run natively, paired with a runtime that adds modern enhancements such as high resolutions, widescreen, high frame rates and ray tracing. A copy of the original ROM is required.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Nintendo 64 Recompilation (N64: Recompiled) es un proyecto que recompila estáticamente juegos de Nintendo 64 en ejecutables nativos de PC. En lugar de emular el hardware, traduce el código máquina original para que los títulos se ejecuten de forma nativa, junto a un runtime que añade mejoras modernas como altas resoluciones, formato panorámico, framerates elevados y trazado de rayos. Requiere una copia de la ROM original.</text>
+  </text>
+</view>
+</theme>

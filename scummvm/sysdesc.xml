@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Script Creation Utility for Maniac Mansion Virtual Machine (ScummVM) is a set of game engine recreations. Originally designed to play LucasArts adventure games that use the SCUMM system, it also supports a variety of non-SCUMM games by companies like Revolution Software and Adventure Soft. It was originally written by Ludvig Strigeus. Released under the terms of the GNU General Public License, ScummVM is free software. ScummVM is a reimplementation of the part of the software used to interpret the scripting languages such games used to describe the game world rather than emulating the hardware the games ran on; as such, ScummVM allows the games it supports to be played on platforms other than those for which they were originally released.</text>
+  </text>
+  <text name="sysdescription" ifSubset="systemview:CoinOPS" extra="true" lang="ES">
+    <pos>0.05 0.72</pos>
+    <size>0.49 0.22</size>
+    <fontPath>./../_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+    <fontSize>0.024</fontSize>
+    <color>EDEDED</color>
+    <glowColor>000000C0</glowColor>
+    <glowSize>2</glowSize>
+    <lineSpacing>1.1</lineSpacing>
+    <alignment>left</alignment>
+    <verticalAlignment>top</verticalAlignment>
+    <zIndex>50</zIndex>
+    <text>Script Creation Utility for Maniac Mansion Virtual Machine (ScummVM) es un conjunto de recreaciones de motores de juego. Originalmente diseñado para reproducir juegos de aventuras de LucasArts que utilizan el sistema SCUMM, también es compatible con una variedad de juegos que no son SCUMM de compañías como Revolution Software y Adventure Soft. Fue escrito originalmente por Ludvig Strigeus. Publicado bajo los términos de la Licencia Pública General GNU, ScummVM es software libre. ScummVM es una reimplementación de la parte del software utilizada para interpretar los lenguajes de scripting que tales juegos utilizaban para describir el mundo del juego, en lugar de emular el hardware en el que se ejecutaban los juegos; como tal, ScummVM permite que los juegos que soporta puedan ser jugados en plataformas distintas de aquellas para las que fueron lanzados originalmente.</text>
+  </text>
+</view>
+</theme>
