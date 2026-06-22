@@ -44,7 +44,7 @@
          REPLACEABLE: swap ./assets/screen-default/default.mp4 (video) or default.png (image). -->
     <image name="screen_default" extra="true">
       <pos>0.279 0.538</pos>
-      <maxSize>0.396 0.580</maxSize>
+      <size>0.396 0.580</size>
       <origin>0.5 0.5</origin>
       <path>./assets/screen-default/default.png</path>
       <linearSmooth>true</linearSmooth>
@@ -53,7 +53,7 @@
     <!-- Default "no signal" VIDEO (muted). Above the no-signal image + screenshot/title, below the game video. -->
     <video name="screen_default_video" extra="true">
       <pos>0.279 0.538</pos>
-      <maxSize>0.396 0.580</maxSize>
+      <size>0.396 0.580</size>
       <origin>0.5 0.5</origin>
       <path>./assets/screen-default/default.mp4</path>
       <audio>false</audio>
@@ -64,7 +64,7 @@
          video we fall through to the "no signal" default (z7) instead of showing a static snapshot. -->
     <video name="md_video">
       <pos>0.279 0.538</pos>
-      <maxSize>0.396 0.580</maxSize>
+      <size>0.396 0.580</size>
       <origin>0.5 0.5</origin>
       <delay>0</delay>
       <showSnapshotNoVideo>false</showSnapshotNoVideo>
@@ -75,14 +75,14 @@
          screen-default assets are removed. -->
     <image name="md_image">
       <pos>0.279 0.538</pos>
-      <maxSize>0.396 0.580</maxSize>
+      <size>0.396 0.580</size>
       <origin>0.5 0.5</origin>
       <linearSmooth>true</linearSmooth>
       <zIndex>6</zIndex>
     </image>
     <image name="md_titleshot">
       <pos>0.279 0.538</pos>
-      <maxSize>0.396 0.580</maxSize>
+      <size>0.396 0.580</size>
       <origin>0.5 0.5</origin>
       <linearSmooth>true</linearSmooth>
       <zIndex>5</zIndex>

@@ -57,4 +57,16 @@
 		</text>		
 	</view>
 
+
+	<!-- CoinOPS-RB: gabinete arcade VERTICAL + pantalla portrait para juegos TATE.
+	     art3 sin el shift -0.04 para alinear; pantalla reposicionada a la abertura vertical. -->
+	<view name="gamecarousel">
+		<image name="art3"><pos>0 0</pos></image>
+		<video name="md_video"><pos>0.271 0.556</pos><size>0.214 0.519</size></video>
+		<image name="md_image"><pos>0.271 0.556</pos><size>0.214 0.519</size></image>
+		<image name="md_titleshot"><pos>0.271 0.556</pos><size>0.214 0.519</size></image>
+		<image name="screen_default"><pos>0.271 0.556</pos><size>0.214 0.519</size></image>
+		<video name="screen_default_video"><pos>0.271 0.556</pos><size>0.214 0.519</size></video>
+	</view>
+
 </theme>
